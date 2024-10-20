@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Real Estate Website</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Real Estate Logo">
+            <p>ROCHA&PIRCHINER- MOBILIÁRIA</p>
+        </div>
+        <nav>
+            <button onclick="window.location.href='buy.html'">Buy</button>
+            <button onclick="window.location.href='rent.html'">Rent</button>
+            <button onclick="window.location.href='sell.html'">Sell</button>
+            <button onclick="window.location.href='loans.html'">Home Loans</button>
+            <button onclick="window.location.href='agent.html'">Find an Agent</button>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Welcome to Our Real Estate Website</h1>
+        <input type="text" id="zipCode" placeholder="Search by Zip Code">
+        <button onclick="searchZip()">Search</button>
+        
+        <div class="property-gallery">
+            <img src="images/house.jpg" alt="Property 1">
+            <img src="images/victoriahouse.jpg" alt="Property 2">
+            <img src="images/victoriahouse2.jpg" alt="Property 3">
+            <img src="images/house.jpg" alt="Property 4">
+            <img src="images/victoriahouse.jpg" alt="Property 5">
+            <img src="images/victoriahouse2.jpg" alt="Property 6">
+        </div>
+    </main>
+    
+    <footer>
+        <p>1300 Main Street, Xinguara, MG <br>&copy; 2024 Real Estate Website</p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
